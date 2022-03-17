@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+* {
+    box-sizing: border-box;
+    }
+html{
+    font-family: 'Open sans', sans-serif;
+}
+body{   
+    margin: 20px 40px;
+}
+
+header{
+    margin-top: 40px;
+}
+
+nav ul{
+    margin-bottom: 50px;
+    text-transform: uppercase; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 160px;
+    min-height: 150px;
+    gap: 20px;  
+}
+
+nav a{
+    display: flex;
+    width: 170px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #ff759c;
+    border: 1px solid cadetblue;
+    padding: 20px 10px;
+    text-decoration: none;
+    color: cadetblue;
+    transition: all 0.4s ease-in;
+}
+
+nav a:hover{
+    background-color: cadetblue;
+    color: aliceblue;
+}
+
+
+@media screen and (max-width: 768px){
+    header{
+        margin-top: 20px;
+    }
+
+    nav>ul{
+        justify-content: center;
+    }
+    nav a{
+        padding: 5px 8px;
+    }
+}
+
+main, section{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+main.list{
+    text-align: left;
+}
+
+h1, h2, h3{
+    text-align: center;
+
+}
+main>ol>li{
+    list-style: upper-roman;
+}
+main>ul>li{
+    list-style: none;
+}
+
+ol>li{
+    font-weight: 700;
+}
+li{list-style-type: none;
+}
+
+ul>li{
+    font-weight: 400;
+    margin-left: 20px;
+}
+div>a{
+    text-align: center;
+}
+footer{
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+footer.BonusFooter{
+    position: relative;
+    text-align: center;
+}
