@@ -1,5 +1,5 @@
 # My First Page 
 
-### demo [here](https://pawel-chmiel.github.io/task-app/)
+## demo [here](https://pawel-chmiel.github.io/my-first-page/)
 
-### Shoper Up! exercise
+## Shoper Up! exercise
